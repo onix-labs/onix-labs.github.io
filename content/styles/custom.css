@@ -1,0 +1,11 @@
+.mt-lg {
+    margin-top: 64px;
+}
+
+.me-5 {
+    margin-right: 32px;
+}
+
+#qotd .card-body {
+    padding: 32px;
+}
