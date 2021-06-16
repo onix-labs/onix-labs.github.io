@@ -1,11 +1,16 @@
-.mt-lg {
-    margin-top: 64px;
+main {
+    margin-top: 63px;
 }
 
-.me-5 {
-    margin-right: 32px;
+.text-small-caps {
+    font-variant: small-caps;
 }
 
-#qotd .card-body {
-    padding: 32px;
+.text-justify {
+    text-align: justify;
+}
+
+.card-dark {
+    background: #292e33;
+    border: 1px solid #31373d;
 }
