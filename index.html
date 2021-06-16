@@ -15,10 +15,10 @@
   <title>ONIXLabs</title>
 </head>
 
-<body class="bg-dark">
+<body class="bg-dark" data-spy="scroll" data-target="#mainNavBar" data-offset="63">
 
   <header>
-    <nav id="navbar" class="navbar fixed-top navbar-expand-md navbar-dark bg-dark shadow">
+    <nav id="mainNavBar" class="navbar fixed-top navbar-expand-md navbar-dark bg-dark shadow">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img height="32" src="content/logo/master_full_white_sm.png">
@@ -47,7 +47,7 @@
     </nav>
   </header>
 
-  <main data-spy="scroll" data-target="#navbar" data-offset="0">
+  <main>
     <div id="home" class="d-none d-md-block">
       <img class="img-fluid" src="content/logo/master_web.png">
       <div class="container">
@@ -66,24 +66,24 @@
         comprehensive and robust solutions for enterprise applications at scale.
       </p>
       <div class="d-none d-md-block mt-5 text-center">
-        <a href="https://github.com/onix-labs" class="btn btn-lg btn-outline-light fw-light me-5">
+        <a href="https://github.com/onix-labs" class="btn btn-lg btn-light fw-light me-5">
           <span class="fab fa-github pe-2"></span> GitHub
         </a>
-        <a href="https://twitter.com/onix_labs" class="btn btn-lg btn-outline-primary fw-light me-5">
+        <a href="https://twitter.com/onix_labs" class="btn btn-lg btn-primary fw-light me-5">
           <span class="fab fa-twitter pe-2"></span> Twitter
         </a>
-        <a href="https://onixlabs.medium.com/" class="btn btn-lg btn-outline-secondary fw-light">
+        <a href="https://onixlabs.medium.com/" class="btn btn-lg btn-secondary fw-light">
           <span class="fab fa-medium pe-2"></span> Medium
         </a>
       </div>
       <div class="d-sm-block d-md-none mt-5 text-center">
-        <a href="https://github.com/onix-labs" class="d-block w-100 btn btn-lg btn-outline-light fw-light">
+        <a href="https://github.com/onix-labs" class="d-block w-100 btn btn-lg btn-light fw-light">
           <span class="fab fa-github pe-2"></span> GitHub
         </a>
-        <a href="https://twitter.com/onix_labs" class="d-block w-100 btn btn-lg btn-outline-primary fw-light mt-3">
+        <a href="https://twitter.com/onix_labs" class="d-block w-100 btn btn-lg btn-primary fw-light mt-3">
           <span class="fab fa-twitter pe-2"></span> Twitter
         </a>
-        <a href="https://onixlabs.medium.com/" class="d-block w-100 btn btn-lg btn-outline-secondary fw-light mt-3">
+        <a href="https://onixlabs.medium.com/" class="d-block w-100 btn btn-lg btn-secondary fw-light mt-3">
           <span class="fab fa-medium pe-2"></span> Medium
         </a>
       </div>
@@ -105,7 +105,8 @@
                 <h2 class="text-muted fw-lighter">Essential, general-purpose APIs for Kotlin developers</h2>
                 <p class="lead text-muted">
                   The Kotlin programming language and API surface is already pretty awesome. This library adds several
-                  features and extensions to further empower developers build awesome applications.
+                  features and extensions to further elevate the API surface and empower developers to build kick-ass
+                  applications.
                 </p>
                 <div class="text-end">
                   <a href="https://github.com/onix-labs/onixlabs-kotlin-core" class="btn btn-lg btn-secondary fw-light">
@@ -216,7 +217,7 @@
                 <h1 class="mt-3 fw-lighter">Corda Identity Framework</h1>
                 <h2 class="text-muted fw-lighter">Comprehensive digital identity management for Corda</h2>
                 <p class="lead text-muted">
-                  influenced by the W3C specifications for decentralized identities and verifiable credentials, this
+                  Influenced by the W3C specifications for decentralized identities and verifiable credentials, this
                   framework provides a powerful and comprehensive API surface for building highly scalable,
                   interoperable, digital and decentralized identities for individuals, organisations and assets on
                   Corda. Fundamentally this framework represents a protocol for interoperable data exchange between
@@ -267,7 +268,7 @@
       <div class="container">
         <div class="row mt-5">
           <div class="col-sm-12 col-md-2 mb-3">
-            <img class="rounded border border-light img-fluid" src="content/images/author.png">
+            <img class="rounded border border-secondary img-fluid" src="content/images/author.png">
           </div>
           <div class="col-sm-12 col-md-10">
             <h1 class="text-light fw-lighter">Matthew Layton</h1>
@@ -283,44 +284,42 @@
             </p>
             <p class="lead text-muted text-justify">
               From a young age, Matthew has been passionate about programming and understanding programming languages
-              with meticulous and scrupulous detail. As a Corda certified professional developer and an IBM certified
-              Blockchain developer, Matthew has a keen interest in applied cryptography, especially working in the
-              Blockchain and DLT ecosystem.
+              with meticulous detail. As a Corda certified professional developer and an IBM certified Blockchain
+              developer, Matthew has a keen interest in applied cryptography, especially working in the Blockchain and
+              DLT ecosystem.
             </p>
             <p class="lead text-muted text-justify">
               Matthew is in the top 1% of StackOverflow's 100 million users for answering and educating participants,
               reaching over 4.5 million people.
             </p>
 
-            <div class="d-none d-lg-block mt-5 text-center">
-              <a href="https://github.com/MrMatthewLayton" class="btn btn-lg btn-outline-light mt-4 me-4">
+            <div class="d-none d-lg-block mt-5">
+              <a href="https://github.com/MrMatthewLayton" class="btn btn-lg btn-light mt-4 me-4">
                 <span class="fab fa-github"></span> GitHub
               </a>
-              <a href="https://stackoverflow.com/users/1033686/matthew-layton"
-                class="btn btn-lg btn-outline-warning mt-4 me-4">
+              <a href="https://stackoverflow.com/users/1033686/matthew-layton" class="btn btn-lg btn-warning mt-4 me-4">
                 <span class="fab fa-stack-overflow"></span> StackOverflow
               </a>
-              <a href="https://twitter.com/MrMatthewLayton" class="btn btn-lg btn-outline-primary mt-4 me-4">
+              <a href="https://twitter.com/MrMatthewLayton" class="btn btn-lg btn-primary mt-4 me-4">
                 <span class="fab fa-twitter"></span> Twitter
               </a>
-              <a href="https://www.linkedin.com/in/matthew-layton-85547829/"
-                class="btn btn-lg btn-outline-secondary mt-4">
+              <a href="https://www.linkedin.com/in/matthew-layton-85547829/" class="btn btn-lg btn-secondary mt-4">
                 <span class="fab fa-linkedin"></span> LinkedIn
               </a>
             </div>
-            <div class="d-sm-block d-lg-none mt-5 text-center">
-              <a href="https://github.com/MrMatthewLayton" class="d-block w-100 btn btn-lg btn-outline-light mt-4 me-4">
+            <div class="d-sm-block d-lg-none mt-5">
+              <a href="https://github.com/MrMatthewLayton" class="d-block w-100 btn btn-lg btn-light mt-4 me-4">
                 <span class="fab fa-github"></span> GitHub
               </a>
               <a href="https://stackoverflow.com/users/1033686/matthew-layton"
-                class="d-block w-100 btn btn-lg btn-outline-warning mt-3">
+                class="d-block w-100 btn btn-lg btn-warning mt-3">
                 <span class="fab fa-stack-overflow"></span> StackOverflow
               </a>
-              <a href="https://twitter.com/MrMatthewLayton" class="d-block w-100 btn btn-lg btn-outline-primary mt-3">
+              <a href="https://twitter.com/MrMatthewLayton" class="d-block w-100 btn btn-lg btn-primary mt-3">
                 <span class="fab fa-twitter"></span> Twitter
               </a>
               <a href="https://www.linkedin.com/in/matthew-layton-85547829/"
-                class="d-block w-100 btn btn-lg btn-outline-secondary mt-3">
+                class="d-block w-100 btn btn-lg btn-secondary mt-3">
                 <span class="fab fa-linkedin"></span> LinkedIn
               </a>
             </div>
